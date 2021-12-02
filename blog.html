@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Our Blog</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@300;400&display=swap');
+        *body {
+            font-family:Nunito;
+        }
+            #header {
+                text-decoration: underline;
+            }
+            .flight {
+                background: rgb(0, 0, 0);
+            }
+            .btn {
+                border-radius: 0rem;
+            }
+            .jumbotron {
+                border-radius: 0pt;
+            }
+            #showcase {
+            padding: 15%;
+            }
+            .scarf {
+                padding:100px;
+            }
+            .lead {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+            #home {
+                font-weight :100;
+            }
+            .grace {
+                text-transform: capitalize;
+            }
+            .date {
+                text-transform: uppercase;
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.5);
+                font-family: Nunito;
+                font-weight:600;
+                letter-spacing: 2px;
+            }
+            p {
+             color: rgba(0, 0, 0, 0.5);
+             font-family: Nunito; 
+            }
+            .nav-container {
+           display: flex;
+           flex-direction: row;
+           background-color: white;
+           justify-content: space-between;
+           width: 100%;
+           padding: 15px 25px;
+           font-family: Nunito;
+       }
+       #header {
+           text-decoration: underline;
+           font-size: 16px;
+           font-weight: 600;
+       }
+       .nav-links {
+           flex-direction: row;
+       }
+       li {
+           display:flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-between;
+           list-style: none;
+           float:left;
+           padding: 5px 15px;
+           letter-spacing: 2px;
+           font-size: 11px;
+           font-weight: 600;
+       }
+       a {
+           color:black;
+       }
+       a:hover {
+           background:coral;
+           text-decoration: none;
+           color:black;
+       }
+       li a {
+           color: rgba(0, 0, 0, 0.5);
+       }
+       .sure {
+           background: black;
+           padding: 5px 20px;
+       }
+       button {
+           color: whitesmoke;
+           font-size: 11px;
+           text-transform: uppercase;
+           letter-spacing: 1px;
+           font-weight: 600;
+       }
+         </style>
+</head>
+<body>
+        <div class="nav-container">
+                <div class="navBrand" id="header">
+                    <a href="index.html">Business</a>
+                </div>
+                <div class="nav-links">
+                    <ul class="nav-item">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">WORK</a></li>
+                        <li><a href="team.html">TEAM</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="flex-right">
+                    <button class="sure">Contact Us</button>
+                </div>
+            </div>
+
+            <section class="jumbotron text-center text-light scarf flight" id="showcase">
+                <h1 class="display-5" id="home">Our Blog</h1>
+            </section>
+        </div>
+    <div class="container-fluid">
+    <div class="container">
+    <section class="align-items-center p-5">
+        <p class="date">aperiam harum</p>
+        <h3>Our Stories</h3>
+        <img src="img/photo1.jpg" alt="" class="p-5 mx-3">
+        <div class="text-center">
+        <h4 class="grace">10 quick tips about blogging</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolorem nisi! Alias ducimus velit labore est harum perferendis, assumenda vel suscipit perspiciatis deleniti? In ratione voluptas porro impedit animi molestiae?</p>
+        <p class="date">february 21, 2019</p>
+    </div>
+    <div class="text-center">
+            <img src="img/photo8.jpg" alt="">
+            <h4 class="grace">15 best blogs to follow about web design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsum porro voluptatem obcaecati asperiores culpa omnis ullam nulla et quos!</p>
+            <p class="date">february 21,2019</p>
+    </div>
+    <div class="text-center">
+        <img src="img/photo2.jpg" alt="">
+        <h4 class="grace">7 0f the best examples of beautiful blog design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, reiciendis.</p>
+        <p class="date">february 21,2019</p>
+    </div>
+    <div class="text-center">
+        <img src="img/photo3.jpg" alt="">
+        <h4 class="grace">5 principles of effective web design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ea, eum amet ipsum accusamus illo, laudantium numquam, praesentium voluptas eveniet exercitationem odio optio maiores consequuntur perspiciatis dolor ratione eius! Perferendis.</p>
+        <p class="date">february 21, 2019</p>
+    </div>
+    <div class="text-center">
+        <img src="img/photo8.jpg" alt="">
+        <h4 class="grace">14 common problems with modern web design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corrupti officiis facere in, nam similique hic pariatur unde natus laborum quis magnam saepe omnis eum cumque laudantium, debitis ducimus consequuntur!</p>
+        <p class="date">february 21, 2019</p>
+    </div>
+    </section>
+   </div>
+    <section class="jumbotron text-center">
+            <h1 class="display-5" id="home">Grow your business.</h1>
+            <p class="lead mb-5">Today is the day to build your dreams. Share your mission with <br> the world- and blow your customer away.</p>
+            <a class="btn btn-dark btn-lg py-2 lead" href="#" role="button">START NOW</a>
+    </section>
+    <div class="footer text-center">Powered by Webcafe</div>
+    </div>
+
+
+     
+            <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
